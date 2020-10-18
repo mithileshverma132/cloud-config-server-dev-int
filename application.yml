@@ -17,9 +17,9 @@ security:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://rdsdb.ceoijrvepzdr.us-east-2.rds.amazonaws.com:3306/srt
-    username: rdsdb
-    password: rdsdb12345
+    url: jdbc:mysql://testdb.ceoiehfypzdr.us-east-3.rds.amazonaws.com:3306/test
+    username: testdb
+    password: test12345
   jpa:
     show-sql: true
     properties:
@@ -40,8 +40,8 @@ management:
     access:
     ## AWS Account Config (isRemoteAccessAWS: true/false or yes/no)
       isRemoteAccessAWS: true
-      awsAccessKeyId: AKIAJDZOZ2APJTKFGDMA
-      awsSecretKey: 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
+      awsAccessKeyId: ABCD
+      awsSecretKey: 8g9zwtwnLG7in9kdqYuAbcd
       region: us-east-2
     csv:
       report:
@@ -53,7 +53,7 @@ management:
   application:
     url: https://localhost:8070/saml/login?disco=true&idp=http%3A%2F%2Fwww.okta.com%2Fexkr22uaciecxFpYR4x6
   bitbucket:
-    url: 'https://bitbucket.vf.com:8443/scm/~grahams3/global_repair.git'
+    url: 'https://bitbucket.vf.com:8753/scm/~abcdef/global_test.git'
   swagger:
     contact:
         name: 'Service Repair Application'
