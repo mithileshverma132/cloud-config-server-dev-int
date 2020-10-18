@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: service-registry #${vcap.application.uris[0]:service-registry}
+    hostname: service-discovery #${vcap.application.uris[0]:service-discovery}
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 10
     lease-expiration-duration-in-seconds: 20
