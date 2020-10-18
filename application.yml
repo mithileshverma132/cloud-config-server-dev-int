@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://service-registry:8080/eureka
+      defaultZone: http://service-discovery:8080/eureka
 
 security:
   saml2:
