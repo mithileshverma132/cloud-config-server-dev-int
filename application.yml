@@ -53,11 +53,11 @@ management:
   application:
     url: https://localhost:8070/saml/login?disco=true&idp=http%3A%2F%2Fwww.okta.com%2Fexkr22uaciecxFpYR4x6
   bitbucket:
-    url: 'https://bitbucket.verifone.com:8443/scm/~grahams3/global_repair.git'
+    url: 'https://bitbucket.vf.com:8443/scm/~grahams3/global_repair.git'
   swagger:
     contact:
         name: 'Service Repair Application'
-        email: 'mithileshv1@verifone.com'
+        email: 'test@gmail.com'
         url: ${management.application.url}
     externaldocs:
         git:
